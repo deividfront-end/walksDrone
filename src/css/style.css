@@ -202,10 +202,14 @@ li, a, button {
 
 
 /* Estilização Container Rolagem Patrocinadores */
-
-.container-patrocinadores {
-
+.barra-patrocinadores{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+ 
   background-color: #0338877e;
+}
+.container-patrocinadores {
   gap: 40px;
   justify-content: center;
   justify-items: center;
@@ -724,12 +728,18 @@ margin-bottom: -10px;
 
 
   /*Estilização div serviços codigos acima ok */
-  
+  .barra-patrocinadores{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+    width: 415px;
+  }
 
   .container-patrocinadores {
 
     background-color: #0a79ef68;
-   width: 415px!important;
+    width: 415px!important;
     gap: 4px;
     justify-content: center;
     justify-items: center;
